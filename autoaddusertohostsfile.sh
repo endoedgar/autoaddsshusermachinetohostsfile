@@ -9,7 +9,7 @@ MANAGE_ETC_HOSTS_SH_FILENAME="manage-etc-hosts.sh"
 ADD_ENTRY_TO_HOSTS_FILE="H4sIAA9HBl8AA42OsQrCMBiE5/5P8Rsz6FDrC2QoUmjBamijICIhtanJ0ESa4vNrh4JubnfcfcctF0ljXdKoYADyYy0OaZkxMit5TvenjEDBGeVpKaspAKh3VcGF5KnIGV21dnCq10jolqwBbIfXj57q4sIzgowh8U/tZNAhWO8I3hCi0WgHEf2aSnrl1EPHerzHxocxbILBQff+pSeLdH71B6ba9pdBWnDoLLwB/zKJsfEAAAA="
 ADD_ENTRY_TO_HOSTS_FILENAME="addentrytohostsfile.sh"
 
-SSH_D_SCRIPT="/etc/pam.d/sshd.tmp"
+SSH_D_SCRIPT="/etc/pam.d/sshd"
 
 if [[ $EUID -ne 0 ]]; then
         echo "This script must be run as root"
