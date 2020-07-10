@@ -1,2 +1,2 @@
 # autoaddsshusermachinetohostsfile
-This scripts automatically adds logged in ssh user to the hosts file.
+This script automatically adds the logged in ssh user ip to the hosts file.
